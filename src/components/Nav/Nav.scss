@@ -1,0 +1,13 @@
+.Nav{
+    width: 500px;
+    ul,li,a{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    li{
+        margin: 10px;
+        border: 2px solid blue;
+        border-radius: 5px;
+    }
+}

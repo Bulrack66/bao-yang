@@ -1,0 +1,43 @@
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px blue solid;
+    padding: 10px;
+    justify-content: center;
+}
+label{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-basis: 10%;
+    align-items: center;
+}
+#message{
+    min-height: 10vh;
+}
+input{
+    align-items: start;
+    border-radius: 5px;
+    border: 2px blue solid;
+    flex-grow: 1;
+    margin: 0px 10px;
+}
+
+button{
+    border-radius: 5px;
+    border: 2px blue solid;
+    margin: 20px auto;
+    width: 30%;
+    height: 40px;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.form-page_box{
+    display: flex;
+}

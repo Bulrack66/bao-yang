@@ -1,0 +1,8 @@
+.Banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bonsai{
+    border-radius: 50%;
+}
